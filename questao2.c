@@ -1,9 +1,9 @@
-// ExercÌcio 2:
-// Crie um programa que faÁa o cadastro de 5 alunos em uma escola,
+// Exerc√≠cio 2:
+// Crie um programa que fa√ßa o cadastro de 5 alunos em uma escola,
 // armazenando seus dados como: nome, idade e  3 notas  para cada aluno.
-// Ao final, mostre todos os dados dos alunos como: nome, idade, as notas e a mÈdia. ApÛs calcular a mÈdia,
-// verifique para cada aluno se este estar· aprovado (mÈdia maior ou igual a 7,0), em recuperaÁ„o (mÈdia menor que 7,0 e maior ou igual a 5,0)
-// ou reprovado (mÈdia menor que 5,0)com base nestes critÈrios.
+// Ao final, mostre todos os dados dos alunos como: nome, idade, as notas e a m√©dia. Ap√≥s calcular a m√©dia,
+// verifique para cada aluno se este estar√° aprovado (m√©dia maior ou igual a 7,0), em recupera√ß√£o (m√©dia menor que 7,0 e maior ou igual a 5,0)
+// ou reprovado (m√©dia menor que 5,0)com base nestes crit√©rios.
 #include <stdio.h>
 int main()
 {
@@ -20,7 +20,7 @@ int main()
         printf("Digite a idade do aluno:");
         scanf("%d", &idade[i]);
     }
-    for (i = 0; i < 3; i++)
+    for (j= 0; j < 3; j++)
     {
         printf("Digite a nota do aluno:");
         scanf("%d",&notas[i]);
@@ -34,7 +34,7 @@ int main()
     }
     else if (media[i] < 7 && media[i] >= 5)
     {
-    printf("RecuperaÁ„o\n");
+    printf("Recupera√ß√£o\n");
     }
     else
     {
